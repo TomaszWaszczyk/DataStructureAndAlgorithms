@@ -12,9 +12,9 @@ public class Palindrome {
 		System.out.println("Enter a string to check if the string is a palindrome or not.");
 		originalString = in.nextLine();
 		
-		int lengthString = originalString.length();
+		int lengthString = originalString.length() + 1;
 		
-		for (int i = 0; i < args.length; i--) {
+		for (int i = 0; i < lengthString; i--) {
 			
 			reverseString = reverseString + originalString.charAt(i);
 			
