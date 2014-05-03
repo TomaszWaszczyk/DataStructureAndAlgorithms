@@ -12,20 +12,20 @@ public class Palindrome {
 		System.out.println("Enter a string to check if the string is a palindrome or not.");
 		originalString = in.nextLine();
 		
-		int lengthString = originalString.length() + 1;
+		int lengthString = originalString.length();
 		
-		for (int i = 0; i < lengthString; i--) {
+		
+		for (int i = lengthString - 1; i >= 0; i--) {
 			
 			reverseString = reverseString + originalString.charAt(i);
+		}
+		
+		if (originalString.equals(reverseString)){ 
 			
-			if (originalString.equals(reverseString)) {
-				
-				System.out.println("It is a palindrome.");
-				
-			} else {
-				
-				System.out.println("It is not a palindrome.");
-			}
+			System.out.println("It is a palindrome.");
+		}else{ 
+			
+			System.out.println("It is not a palindrome.");
 		}
 	}
 }
