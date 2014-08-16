@@ -1,5 +1,8 @@
 package com.waszczyk.sort;
 
+
+//https://stackoverflow.com/questions/8938235/java-sort-an-array
+
 public class BubbleSort {
 
 	public static void bubbleSort(int[] array) {
@@ -31,8 +34,4 @@ public class BubbleSort {
 			System.out.println(i);
 		}
 	}
-	
-	
-	
-
 }
