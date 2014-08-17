@@ -1,1 +1,3 @@
 https://github.com/TomaszWaszczyk/LearnAndTest
+
+http://www.programcreek.com/2012/12/leetcode-solution-of-two-sum-in-java/
