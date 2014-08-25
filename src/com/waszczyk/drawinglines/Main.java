@@ -1,5 +1,8 @@
 package com.waszczyk.drawinglines;
 
+
+//https://stackoverflow.com/questions/21800466/draw-with-lines-in-java/21801845#21801845
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
